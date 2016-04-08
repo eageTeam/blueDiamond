@@ -224,57 +224,13 @@
 	padding-left: .48rem;
 }
 
-#page5 .list-title .list1 {
-	background: url("../img/screen5_list1.png") no-repeat center left;
-	background-size: auto .16rem;
-}
-#page5 .list-title .list2 {
-	height: .35rem;
-	background: url("../img/screen5_list2.png") no-repeat center left;
-	background-size: auto .16rem;
-}
-#page5 .list-title .list3 {
-	height: .35rem;
-	background: url("../img/screen5_list3.png") no-repeat center left;
-	background-size: auto .16rem;
-}
-#page5 .list-title .list4 {
-	height: .35rem;
-	background: url("../img/screen5_list4.png") no-repeat center left;
-	background-size: auto .16rem;
-}
-#page5 .list-title .list5 {
-	height: .35rem;
-	background: url("../img/screen5_list5.png") no-repeat center left;
-	background-size: auto .16rem;
-}
-#page5 .list-title .list6 {
-	height: .35rem;
-	background: url("../img/screen5_list6.png") no-repeat center left;
-	background-size: auto .16rem;
-}
-#page5 .list-title .list7 {
-	height: .35rem;
-	background: url("../img/screen5_list7.png") no-repeat center left;
-	background-size: auto .16rem;
-}
-#page5 .list-title .list8 {
-	height: .35rem;
-	background: url("../img/screen5_list8.png") no-repeat center left;
-	background-size: auto .16rem;
-}
-#page5 .list-title .list9 {
-	height: .35rem;
-	background: url("../img/screen5_list9.png") no-repeat center left;
-	background-size: auto .16rem;
-}
-#page5 .list-title .list10 {
-	height: .35rem;
-	background: url("../img/screen5_list10.png") no-repeat center left;
-	background-size: auto .16rem;
-}
 #page5 .list-title li {
 	height: .35rem;
+	line-height: .35rem;
+	padding-left: .2rem;
+	background: url("../img/screen5_list.png") no-repeat center left;
+	color: #dcdddd;
+	background-size: auto .1rem;
 }
 #page6 {
 	background: url(../img/screen_common_back.png) no-repeat;
@@ -423,59 +379,304 @@
 	background: url("../img/screen7_text3.png") no-repeat bottom left;
 	background-size: auto .22rem;
 }
-@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+#page8 .bottom-bg .text8-5 {
+	position: absolute;
+	bottom: .2rem;
+	width: 80%;
+	margin: 0 10%;
+	height: .16rem;
+	background: url("../img/screen8-text3.png") no-repeat center;
+	background-size: 100% .16rem;
+}
+#page9 {
+	background: url(../img/screen_common_back.png) no-repeat;
+	background-size: cover;
+}
+#page9 .page9-bg {
+	width: 100%;
+	height: 100%;
+	background: url("../img/screen9-bg.png") no-repeat top;
+	background-size: 100%;
+}
+#page9 .page9-bg .text9-1 {
+	width: 87%;
+	height: 2.9rem;
+	margin-left: 13%;
+	background: url("../img/screen9-text1.png") no-repeat left bottom;
+	background-size: auto .48rem;
+}
+#page9 .page9-bg .text9-2 {
+	width: 87%;
+	margin-left: 13%;
+	height: .4rem;
+	background: url("../img/screen7_text2.png") no-repeat bottom left;
+	background-size: auto .28rem;
+}
+#page9 .page9-bg .text9-3 {
+	width: 87%;
+	margin-left: 13%;
+	height: .35rem;
+	background: url("../img/screen7_text3.png") no-repeat bottom left;
+	background-size: auto .22rem;
+}
+#page9 .page9-bg .text9-4 {
+	width: 92%;
+	margin-right: 8%;
+	height: .8rem;
+	background: url("../img/screen9-text2.png") no-repeat top right;
+	background-size: auto .64rem;
+}
+#page9 .page9-bg .text9-5 {
+	width: 92%;
+	margin-right: 8%;
+	height: .3rem;
+	background: url("../img/screen6_text3.png") no-repeat bottom right;
+	background-size: auto .2rem;
+}
+#page9 .page9-bg .text9-6 {
+	position: absolute;
+	bottom: .2rem;
+	width: 80%;
+	margin: 0 10%;
+	height: .16rem;
+	background: url("../img/screen6_text5.png") no-repeat center;
+	background-size: 100% .16rem;
+}
+#page10 {
+	background: url(../img/screen_common_back.png) no-repeat;
+	background-size: cover;
+}
+#page10 .page10-bg {
+	width: 100%;
+	height: 100%;
+	background: url("../img/screen10-bg.png") no-repeat top;
+	background-size: 100%;
+}
+#page10 .page10-bg .text10-1 {
+	width: 90%;
+	height: 2.4rem;
+	background: url(../img/screen10-text3.png) no-repeat bottom right;
+	background-size: auto .28rem;
+}
+#page10 .page10-bg .text10-2 {
+	width: 90%;
+	height: .7rem;
+	background: url(../img/screen10-text1.png) no-repeat bottom right;
+	background-size: auto .45rem;
+}
+#page10 .page10-bg .text10-3 {
+	width: 71.25%;
+	height: .35rem;
+	margin-left: 18.75%;
+	background: url(../img/screen6_text3.png) no-repeat bottom right;
+	background-size: auto .17rem;
+}
+.page10-bg .text10-3 .icon {
+	width: .35rem;
+	height: .35rem;
+	background: url(../img/screen10-icon.png) no-repeat;
+	background-size: cover;
+}
+#page10 .page10-bg .text10-4 {
+	width: 81.25%;
+	height: 1rem;
+	margin-left: 18.75%;
+	margin-top: .25rem;
+	background: url(../img/screen10-text2.png) no-repeat top left;
+	background-size: auto .75rem;
+}
+#page10 .page10-bg .text10-5 {
+	position: absolute;
+	bottom: .2rem;
+	width: 80%;
+	margin: 0 10%;
+	height: .16rem;
+	background: url("../img/screen6_text5.png") no-repeat center;
+	background-size: 100% .16rem;
+}
+#page11 {
+	background: url(../img/screen_common_back.png) no-repeat;
+	background-size: cover;
+}
+#page11 .page11-bg {
+	width: 100%;
+	height: 100%;
+	background: url("../img/screen11-bg.png") no-repeat top;
+	background-size: 100%;
+}
+#page11 .page11-bg .text11-1 {
+	width: 87.5%;
+	height: 1.2rem;
+	margin-left: 12.5%;
+	background: url("../img/screen11-text1.png") no-repeat left bottom;
+	background-size: auto .5rem;
+}
+#page11 .page11-bg .text11-2 {
+	width: 77.5%;
+	height: .36rem;
+	margin-left: 12.5%;
+	margin-right: 10%;
+	background: url("../img/screen11-text3.png") no-repeat left bottom;
+	background-size: auto .22rem;
+}
+#page11 .page11-bg .brandAll {
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+}
+#page11 .page11-bg .brand {
+	width: .62rem;
+	height: .25rem;
+	float: right;
+}
+#page11 .page11-bg .brand-mar {margin-right: .05rem;}
+#page11 .page11-bg .brand1 {
+	background: url("../img/screen11-brand1.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand2 {
+	background: url("../img/screen11-brand2.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand3 {
+	background: url("../img/screen11-brand3.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand4 {
+	background: url("../img/screen11-brand4.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand5 {
+	background: url("../img/screen11-brand5.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand6 {
+	background: url("../img/screen11-brand6.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand7 {
+	background: url("../img/screen11-brand7.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand8 {
+	background: url("../img/screen11-brand8.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand9 {
+	background: url("../img/screen11-brand9.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand10 {
+	background: url("../img/screen11-brand10.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand11 {
+	background: url("../img/screen11-brand11.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand12 {
+	background: url("../img/screen11-brand12.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand13 {
+	background: url("../img/screen11-brand13.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand14 {
+	background: url("../img/screen11-brand14.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand15 {
+	background: url("../img/screen11-brand15.png");
+	background-size: cover;
+}
+#page11 .page11-bg .brand16 {
+	background: url("../img/screen11-brand16.png");
+	background-size: cover;
+}
+#page11 .page11-bg .text-space {
+	float: left;
+	width: 21.5%;
+	margin-left: 12.5%;
+}
+.page11-bg .text-space .screen11-sj {
+	width: .45rem;
+	height: .45rem;
+	margin-top: .5rem;
+	background: url("../img/screen11-sj.png");
+	background-size: cover;
+}
+.page11-bg .text-space .text11-3 {
+	width: 100%;
+	height: .6rem;
+	background: url("../img/screen7_text2.png") no-repeat left bottom;
+	background-size: auto .25rem;
+}
+.page11-bg .text-space .text11-4 {
+	width: 100%;
+	height: .4rem;
+	background: url("../img/screen7_text3.png") no-repeat left bottom;
+	background-size: auto .25rem;
+}
+#page11 .page11-bg .brand-block {
+	float: right;
+	width: 56%;
+	height: auto;
+	margin-right: 10%;
+}
+#page11 .page11-bg .brand-line {
+	width: auto;
+	height: .35rem;
+}
+#page11 .page11-bg .text11-5 {
+	width: 77.5%;
+	height: .8rem;
+	margin-left: 12.5%;
+	margin-right: 10%;
+	margin-top: .45rem;
+	background: url("../img/screen11-text2.png") no-repeat top;
+	background-size: 100%;
+}
+#page11 .page11-bg .text11-6 {
+	position: absolute;
+	bottom: .2rem;
+	width: 80%;
+	margin: 0 10%;
+	height: .16rem;
+	background: url("../img/screen6_text5.png") no-repeat center;
+	background-size: 100% .16rem;
+}
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2) {
+	/* 兼容iphone4/4s */
 	#page3 .layer .layer-text {
 		font-size: .14rem;
 	}
-	#page5 .left-title {
-		background-size: .5rem;
-	}
-	#page5 .list-title .list1 {
-		background-size: auto .14rem;
-	}
-	#page5 .list-title .list2 {
-		background-size: auto .14rem;
-	}
-	#page5 .list-title .list3 {
-		background-size: auto .14rem;
-	}
-	#page5 .list-title .list4 {
-		background-size: auto .14rem;
-	}
-	#page5 .list-title .list5 {
-		background-size: auto .14rem;
-	}
-	#page5 .list-title .list6 {
-		background-size: auto .14rem;
-	}
-	#page5 .list-title .list7 {
-		background-size: auto .14rem;
-	}
-	#page5 .list-title .list8 {
-		background-size: auto .14rem;
-	}
-	#page5 .list-title .list9 {
-		background-size: auto .14rem;
-	}
-	#page5 .list-title .list10 {
-		background-size: auto .14rem;
-	}
+
 	#page5 .list-title li {
 		height: .3rem;
+		line-height: .3rem;
+		padding-left: .2rem;
+		background: url("../img/screen5_list.png") no-repeat center left;
+		color: #dcdddd;
+		background-size: auto .1rem;
 	}
+
 	#page6 .top-bg .text1 {
 		height: 2.2rem;
 		margin-right: 10%;
 		background-size: auto .25rem;
 	}
+
 	#page6 .top-bg .text4 {
 		font-size: .8em;
 	}
+
 	#page7 .center-bg .text7-1 {
 		height: .42rem;
 		padding-top: .5rem;
 		background-size: auto .42rem;
 	}
+
 	#page7 .center-bg .text7-4 {
 		width: 75%;
 		height: .5rem;
@@ -485,8 +686,60 @@
 		background: url("../img/screen7_text4.png") no-repeat;
 		background-size: 100%;
 	}
-}
 
+	#page8 .bottom-bg .text8-1 {
+		height: 1rem;
+	}
+
+	#page8 .bottom-bg .text8-2 {
+		height: 1rem;
+		background-size: auto .4rem;
+	}
+
+	#page8 .bottom-bg .text8-3 {
+		height: .5rem;
+		background-size: auto .28rem;
+	}
+
+	#page8 .bottom-bg .text8-4 {
+		height: .3rem;
+		background: url("../img/screen7_text3.png") no-repeat bottom left;
+		background-size: auto .2rem;
+	}
+
+	#page9 .page9-bg .text9-1 {
+		height: 2.5rem;
+		background-size: auto .48rem;
+	}
+
+	#page9 .page9-bg .text9-2 {
+		width: 87%;
+		margin-left: 13%;
+		height: .4rem;
+		background: url("../img/screen7_text2.png") no-repeat bottom left;
+		background-size: auto .28rem;
+	}
+
+	#page10 .page10-bg .text10-1 {
+		height: 2rem;
+		background-size: auto .28rem;
+	}
+
+	#page11 .page11-bg .text11-1 {
+		height: 1rem;
+		background-size: auto .4rem;
+	}
+
+	#page11 .page11-bg .brand {
+		width: .52rem;
+		height: .22rem;
+		float: right;
+	}
+
+	#page11 .page11-bg .text11-5 {
+		margin-top: .24rem;
+	}
+}
 @media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */ 
 	#page3 .layer .layer-text {
 	font-size: .14rem;
@@ -512,6 +765,22 @@
 		margin-top: 1.9rem;
 		background: url("../img/screen7_text4.png") no-repeat;
 		background-size: 100%;
+	}
+	#page10 .page10-bg .text10-1 {
+		height: 2rem;
+		background-size: auto .28rem;
+	}
+	#page11 .page11-bg .text11-1 {
+		height: 1rem;
+		background-size: auto .4rem;
+	}
+	#page11 .page11-bg .brand {
+		width: .52rem;
+		height: .22rem;
+		float: right;
+	}
+	#page11 .page11-bg .text11-5 {
+		margin-top: .24rem;
 	}
 }
 @media (device-height:667px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone6 */
@@ -540,5 +809,32 @@
 	#page7 .center-bg .text7-4 {
 		height: .6rem;
 		margin-top: 2.6rem;
+	}
+	#page8 .bottom-bg .text8-1 {
+		height: 1.4rem;
+	}
+	#page8 .bottom-bg .text8-2 {
+		height: 1.2rem;
+		background-size: auto .5rem;
+	}
+	#page8 .bottom-bg .text8-3 {
+		height: .6rem;
+		background-size: auto .36rem;
+	}
+	#page8 .bottom-bg .text8-4 {
+		height: .38rem;
+		background: url("../img/screen7_text3.png") no-repeat bottom left;
+		background-size: auto .26rem;
+	}
+	#page10 .page10-bg .text10-1 {
+		height: 2.8rem;
+		background-size: auto .28rem;
+	}
+	#page10 .page10-bg .text10-4 {
+		width: 81.25%;
+		height: 1rem;
+		margin-left: 18.75%;
+		margin-top: .35rem;
+		background-size: auto .9rem;
 	}
 }
