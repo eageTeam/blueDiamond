@@ -1,0 +1,544 @@
+.hide {
+	display: none;
+}
+.lz-container {
+	position: absolute;
+	width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.lz-scroll, 
+.lz-panel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#page1 {
+	background: url(../img/screen1_back.jpg) no-repeat;
+	background-size: cover;
+}
+#page1 .head-title {
+	position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/screen1_top_text.png) no-repeat 50% 15%;
+    background-size: 46%;
+}
+#page1 .masket {
+	position: absolute;
+    top: 61%;
+    width: 100%;
+    color: #b08b49;
+    font-size: .14rem;
+    line-height: 1.8;
+    font-weight: bold;
+    text-align: center;
+} 
+#page1 .arrow-box {
+	position: absolute;
+	top: 80%;
+	width: 100%;
+	text-align: center;
+}
+#page1 .arrow-box .arrow {
+	display: inline-block;
+	width: .7rem;
+	height: .7rem;
+	background: url(../img/screen1_arrow_down.png) no-repeat;
+	background-size: contain;
+}
+#page2 {
+	background: url(../img/screen_common_back.png) no-repeat;
+	background-size: cover;
+}
+#page2 .mask {
+	position: absolute;
+	top: 5%;
+	width: 100%;
+	color: #838282;
+	text-align: center;
+}
+#page2 .title {
+	position: absolute;
+	top: 13%;
+	width: 100%;
+	height: 24%;
+	background: url(../img/screen2_title_text.png) no-repeat 50% 0;
+	background-size: contain;;
+}
+#page2 .descript {
+	position: absolute;
+	top: 44%;
+	width: 100%;
+	font-size: .10rem;
+	color: #727171;
+	text-align: center;
+	line-height: 2;
+}
+#page2 .descript .decen {
+	margin-top: .2rem;
+	font-size: 8px;
+}
+#page2 .bottom {
+    position: absolute;
+    bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#page2 .bottom .bottom-span {
+    background: url(../img/screen2_hourse.png) no-repeat 0 100%;
+    background-size: contain;
+    -webkit-box-flex: 5;
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+}
+#page2 .bottom .bottom-space {
+	-webkit-box-flex: 1; 
+	-webkit-flex: 1; 
+	-ms-flex: 1; 
+	flex: 1;
+}
+#page3 {
+	background: url(../img/screen_common_back.png) no-repeat;
+	background-size: cover;
+}
+#page3 .layerbox {
+	width: 100%;
+	height: 100%;
+}
+#page3 .layer {
+	position: relative;
+	width: 100%;
+	height: 19%;
+}
+#page3 .layer .layer-text {
+	position: absolute;
+	top: 30%;
+    left: 9%;
+	font-size: .2rem;
+	color: #fff;
+	font-family: "宋体";
+}
+#page3 .lay1 {
+	background: url(../img/screen3_first.png) no-repeat 100% 100%;
+	background-size: cover;
+}
+#page3 .lay2 {
+	background: url(../img/screen3_second.png) no-repeat 100% 100%;
+	background-size: cover;
+}
+#page3 .lay3 {
+	background: url(../img/screen3_third.png) no-repeat 100% 100%;
+	background-size: cover;
+}
+#page3 .lay4 {
+	background: url(../img/screen3_fouth.png) no-repeat 100% 100%;
+	background-size: cover;
+}
+#page3 footer {
+	text-align: center;
+    height: 24%;
+    padding: 13%;
+	color: #8a796f;
+}
+#page3 footer .foot-title {
+	text-align: center;
+	font-size: 1.3em;
+	font-family: "宋体";
+	font-weight: bold;
+}
+#page3 footer .foot-nav-title {
+	margin-top: .02rem;
+	font-size: .1rem;
+}
+#page4 {
+	background: url(../img/screen4_back.png) no-repeat 100% 100%;
+	background-size: cover;
+}
+#page4 .head-line {
+	width: 100%;
+	height: .6rem;
+	margin-top: 1.25rem;
+	background: url("../img/screen4_headline.png") no-repeat center;
+	background-size: auto .6rem;
+}
+#page4 .bottom-line {
+	position: absolute;
+	bottom: .4rem;
+	width: 100%;
+	height: .3rem;
+	background: url("../img/screen4_bottomtext.png") no-repeat center;
+	background-size: auto .12rem;
+}
+#page5 {
+	background: url(../img/screen4_back.png) no-repeat 100% 100%;
+	background-size: cover;
+}
+#page5 .list-title {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+#page5 .left-title {
+	float: left;
+	width: 50%;
+	height: 4rem;
+	margin-top: .5rem;
+	background: url("../img/screen5_lefttitle.png") no-repeat center top;
+	background-size: .6rem;
+}
+#page5 .bottom {
+	position: absolute;
+	bottom: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+#page5 .bottom .bottom-img {
+	background: url(../img/screen5_bottom.png) no-repeat 0 100%;
+	background-size: contain;
+	-webkit-box-flex: 5;
+	-webkit-flex: 5;
+	-ms-flex: 5;
+	flex: 5;
+}
+#page5 .bottom .bottom-space {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+#page5 .list-title ul {
+	height: 3rem;
+	padding-top: .7rem;
+	padding-left: .48rem;
+}
+
+#page5 .list-title .list1 {
+	background: url("../img/screen5_list1.png") no-repeat center left;
+	background-size: auto .16rem;
+}
+#page5 .list-title .list2 {
+	height: .35rem;
+	background: url("../img/screen5_list2.png") no-repeat center left;
+	background-size: auto .16rem;
+}
+#page5 .list-title .list3 {
+	height: .35rem;
+	background: url("../img/screen5_list3.png") no-repeat center left;
+	background-size: auto .16rem;
+}
+#page5 .list-title .list4 {
+	height: .35rem;
+	background: url("../img/screen5_list4.png") no-repeat center left;
+	background-size: auto .16rem;
+}
+#page5 .list-title .list5 {
+	height: .35rem;
+	background: url("../img/screen5_list5.png") no-repeat center left;
+	background-size: auto .16rem;
+}
+#page5 .list-title .list6 {
+	height: .35rem;
+	background: url("../img/screen5_list6.png") no-repeat center left;
+	background-size: auto .16rem;
+}
+#page5 .list-title .list7 {
+	height: .35rem;
+	background: url("../img/screen5_list7.png") no-repeat center left;
+	background-size: auto .16rem;
+}
+#page5 .list-title .list8 {
+	height: .35rem;
+	background: url("../img/screen5_list8.png") no-repeat center left;
+	background-size: auto .16rem;
+}
+#page5 .list-title .list9 {
+	height: .35rem;
+	background: url("../img/screen5_list9.png") no-repeat center left;
+	background-size: auto .16rem;
+}
+#page5 .list-title .list10 {
+	height: .35rem;
+	background: url("../img/screen5_list10.png") no-repeat center left;
+	background-size: auto .16rem;
+}
+#page5 .list-title li {
+	height: .35rem;
+}
+#page6 {
+	background: url(../img/screen_common_back.png) no-repeat;
+	background-size: cover;
+}
+#page6 .top-bg {
+	width: 100%;
+	height: 100%;
+	background: url(../img/screen6_topbg.png) no-repeat 100% 0;
+	background-size: 100%;
+}
+#page6 .top-bg .text1 {
+	width: 90%;
+	height: 2.5rem;
+	margin-right: 10%;
+	background: url("../img/screen6_text1.png") no-repeat bottom right;
+	background-size: auto .28rem;
+}
+#page6 .top-bg .text2 {
+	width: 90%;
+	height: .56rem;
+	margin-right: 10%;
+	background: url("../img/screen6_text2.png") no-repeat bottom right;
+	background-size: auto .42rem;
+}
+#page6 .top-bg .text3 {
+	width: 75%;
+	height: .4rem;
+	margin-right: 10%;
+	margin-left: 15%;
+	background: url("../img/screen6_text3.png") no-repeat bottom right;
+	background-size: auto .18rem;
+}
+.qwicon {
+	height: .4rem;
+	width: .4rem;
+	background: url("../img/screen6_qw.png") no-repeat center;
+	background-size: cover;
+}
+#page6 .top-bg .text4 {
+	width: 75%;
+	margin-right: 10%;
+	margin-left: 15%;
+	margin-top: .2rem;
+	color: #727171;
+	background-size: auto .18rem;
+}
+#page6 .top-bg .text5 {
+	position: absolute;
+	bottom: .2rem;
+	width: 80%;
+	margin: 0 10%;
+	height: .16rem;
+	background: url("../img/screen6_text5.png") no-repeat center;
+	background-size: 100% .16rem;
+}
+#page7 {
+	background: url(../img/screen_common_back.png) no-repeat;
+	background-size: cover;
+}
+#page7 .center-bg {
+	width: 100%;
+	height: 100%;
+	background: url("../img/screen7-bg.png") no-repeat;
+	background-size: 100%;
+}
+#page7 .center-bg .text7-1 {
+	width: 87.5%;
+	height: .46rem;
+	margin-left: 12.5%;
+	padding-top: .56rem;
+	background: url("../img/screen7_text1.png") no-repeat left bottom;
+	background-size: auto .46rem;
+}
+#page7 .center-bg .text7-2 {
+	width: 87.5%;
+	height: .5rem;
+	margin-left: 12.5%;
+	background: url("../img/screen7_text2.png") no-repeat left bottom;
+	background-size: auto .28rem;
+}
+#page7 .center-bg .text7-3 {
+	width: 87.5%;
+	height: .35rem;
+	margin-left: 12.5%;
+	background: url("../img/screen7_text3.png") no-repeat left bottom;
+	background-size: auto .22rem;
+}
+#page7 .center-bg .text7-4 {
+	width: 75%;
+	height: .5rem;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	margin-top: 2.4rem;
+	background: url("../img/screen7_text4.png") no-repeat;
+	background-size: 100%;
+}
+#page7 .center-bg .text7-5 {
+	position: absolute;
+	bottom: .2rem;
+	width: 80%;
+	margin: 0 10%;
+	height: .16rem;
+	background: url("../img/screen6_text5.png") no-repeat center;
+	background-size: 100% .16rem;
+}
+#page8 {
+	background: url(../img/screen_common_back.png) no-repeat;
+	background-size: cover;
+}
+#page8 .bottom-bg {
+	width: 100%;
+	height: 100%;
+	background: url("../img/screen8-bg.png") no-repeat bottom;
+	background-size: 100%;
+}
+#page8 .bottom-bg .text8-1 {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 1.2rem;
+	background: url("../img/screen8-text1.png") no-repeat bottom left;
+	background-size: 100%;
+}
+#page8 .bottom-bg .text8-2 {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 1.2rem;
+	background: url("../img/screen8-text2.png") no-repeat bottom left;
+	background-size: auto .5rem;
+}
+#page8 .bottom-bg .text8-3 {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: .6rem;
+	background: url("../img/screen7_text2.png") no-repeat bottom left;
+	background-size: auto .32rem;
+}
+#page8 .bottom-bg .text8-4 {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: .35rem;
+	background: url("../img/screen7_text3.png") no-repeat bottom left;
+	background-size: auto .22rem;
+}
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+	#page3 .layer .layer-text {
+		font-size: .14rem;
+	}
+	#page5 .left-title {
+		background-size: .5rem;
+	}
+	#page5 .list-title .list1 {
+		background-size: auto .14rem;
+	}
+	#page5 .list-title .list2 {
+		background-size: auto .14rem;
+	}
+	#page5 .list-title .list3 {
+		background-size: auto .14rem;
+	}
+	#page5 .list-title .list4 {
+		background-size: auto .14rem;
+	}
+	#page5 .list-title .list5 {
+		background-size: auto .14rem;
+	}
+	#page5 .list-title .list6 {
+		background-size: auto .14rem;
+	}
+	#page5 .list-title .list7 {
+		background-size: auto .14rem;
+	}
+	#page5 .list-title .list8 {
+		background-size: auto .14rem;
+	}
+	#page5 .list-title .list9 {
+		background-size: auto .14rem;
+	}
+	#page5 .list-title .list10 {
+		background-size: auto .14rem;
+	}
+	#page5 .list-title li {
+		height: .3rem;
+	}
+	#page6 .top-bg .text1 {
+		height: 2.2rem;
+		margin-right: 10%;
+		background-size: auto .25rem;
+	}
+	#page6 .top-bg .text4 {
+		font-size: .8em;
+	}
+	#page7 .center-bg .text7-1 {
+		height: .42rem;
+		padding-top: .5rem;
+		background-size: auto .42rem;
+	}
+	#page7 .center-bg .text7-4 {
+		width: 75%;
+		height: .5rem;
+		margin-left: 12.5%;
+		margin-right: 12.5%;
+		margin-top: 1.9rem;
+		background: url("../img/screen7_text4.png") no-repeat;
+		background-size: 100%;
+	}
+}
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */ 
+	#page3 .layer .layer-text {
+	font-size: .14rem;
+	}
+	#page6 .top-bg .text1 {
+		height: 2.2rem;
+		margin-right: 10%;
+		background-size: auto .25rem;
+	}
+	#page6 .top-bg .text4 {
+		font-size: .8em;
+	}
+	#page7 .center-bg .text7-1 {
+		height: .42rem;
+		padding-top: .5rem;
+		background-size: auto .42rem;
+	}
+	#page7 .center-bg .text7-4 {
+		width: 75%;
+		height: .5rem;
+		margin-left: 12.5%;
+		margin-right: 12.5%;
+		margin-top: 1.9rem;
+		background: url("../img/screen7_text4.png") no-repeat;
+		background-size: 100%;
+	}
+}
+@media (device-height:667px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone6 */
+	#page3 .layer .layer-text {
+		font-size: .18rem;
+	}
+	#page3 footer .foot-title {
+		font-size: 1.6em;
+	}	
+}
+@media (device-height:736px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone6 Plus */
+	#page3 .layer .layer-text {
+		font-size: .18rem;
+	}
+	#page3 footer .foot-title {
+		font-size: 1.6em;
+	}
+	#page6 .top-bg .text1 {
+		height: 3rem;
+		margin-right: 10%;
+		background-size: auto .28rem;
+	}
+	#page7 .center-bg .text7-1 {
+		padding-top: .7rem;
+	}
+	#page7 .center-bg .text7-4 {
+		height: .6rem;
+		margin-top: 2.6rem;
+	}
+}
